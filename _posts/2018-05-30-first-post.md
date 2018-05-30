@@ -2,7 +2,10 @@
 layout: post
 title: First post!
 image: /img/hello_world.jpeg
-category: misc
+categories:
+  - Misc
+  - test
+tag: [hello, world]
 ---
 
 This is my first post, how exciting!
