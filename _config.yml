@@ -25,6 +25,7 @@ description: Rediscovering Machine Learning Algorithms from Scratch.
 navbar-links:
   About: "about"
   CV: "resume"
+  GitHub: "https://github.com/stgrmks"
   Projects: "projects"
   Blog: "blog"
   # Resources:
