@@ -4,7 +4,10 @@ title: First post!
 image: /img/hello_world.jpeg
 categories:
   - Misc
-  - test
+  - Probability & statistics
+  - Machine learning
+  - Optimization
+  - Econometrics
 tag: [hello, world]
 ---
 

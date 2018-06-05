@@ -17,7 +17,7 @@ baseurl: ""
 title: from scratch
 
 # Short description of your site
-description: Random Stuff.
+description: Random Stuff. Personal Library.
 
 # --- Navigation bar options --- #
 
@@ -27,7 +27,7 @@ navbar-links:
   CV: "resume"
   GitHub: "https://github.com/stgrmks"
   Projects: "projects"
-  Blog: "blog"
+  Library: "library"
   # Resources:
   #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   #   - Learn markdown: "http://www.markdowntutorial.com/"
