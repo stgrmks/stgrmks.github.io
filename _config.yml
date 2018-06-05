@@ -148,6 +148,7 @@ paginate: 5
 
 kramdown:
   input: GFM
+  mathjax: true
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
