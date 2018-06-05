@@ -10,7 +10,7 @@ tag: [ols, linear_regression]
 ## Introduction
 -
 ## Model
-$\vec Y = \vec X \vec \beta + \vec U$
+
 ## Parameter Identification
 
 ## Assumptions
