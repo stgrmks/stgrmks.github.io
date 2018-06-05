@@ -69,6 +69,7 @@ permalink: /library/
 </ul>
 {% endif %}
 ---
+<br>
 <h2>Categories</h2>
 ---
 {% for tag in site.categories %}
