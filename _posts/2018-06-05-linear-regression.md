@@ -58,6 +58,7 @@ Thus, we can determine the asymptotic distribution as follows:
 \\[\hat{\beta} \overset{a}{\thicksim} \mathcal{N}(\beta,\frac{A^{-1}BA^{-1}}{N}) \\]
 Therefore, the estimator is consistent.
 ## Code
-```python
-s = "Python syntax highlighting"
+~~~python
+s = "TO BE DONE"
 print s
+~~~
