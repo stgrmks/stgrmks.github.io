@@ -49,7 +49,7 @@ Splitting the right side and analysing the asymptotic behaviour. The first one:
 \\[\lim \limits_{n \rightarrow \infty}  VAR[N^{-1} \sum_i x_i x_i^T] \overset{iid}{=} N^{-1} VAR[x_i x_i^T] = 0\\]
 The second one:
 \\[E[N^{-1/2} \sum_i x_i u_i] \overset{iid}{=} N^{1/2} E[x_i u_i] = 0 \\]
-\\[\lim \limits_{n \rightarrow \infty}  VAR[N^{-1/2} \sum_i x_i u_i] \overset{iid}{=}N^{-1/4}NVAR[x_i u_i] = N^{3/4}E[x_i u_i (x_i u_i)^T] - E[x_i u_i] E[x_i u_i]^T = E[x_i u_i u_i^T x_i^T] \equiv B \\]
+\\[\lim \limits_{n \rightarrow \infty}  VAR[N^{-1/2} \sum_i x_i u_i] \overset{iid}{=}N^{-1}NVAR[x_i u_i] = E[x_i u_i (x_i u_i)^T] - E[x_i u_i] E[x_i u_i]^T = E[x_i u_i u_i^T x_i^T] \equiv B \\]
 Hence:
 \\[N^{-1} \sum_i x_i x_i^T  \overset{p}{\to} A^{-1}\\]
 \\[N^{-1/2} \sum_i x_i u_i^T  \overset{d}{\to} \mathcal{N}(0,B)\\]
