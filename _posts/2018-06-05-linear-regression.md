@@ -42,7 +42,7 @@ And solving for $$\beta$$:
 \\[\hat{\beta} = (xx^T)^{-1}xy = (xx^T)^{-1}xx^T \beta + (xx^T)^{-1}xu = \beta + (xx^T)^{-1}xu\\]
 Replacing the moments with the corresponding sample averages:
 \\[\hat{\beta} = \beta + (N^{-1} \sum_i x_i x_i^T)^{-1}(N^{-1} \sum_i x_i u_i)\\]
-Rewritting and normalizing to use CLT:
+Rewritting and normalizing for CLT:
 \\[(\sqrt{N}(\hat{\beta}-\beta) = \sqrt{N}(N^{-1} \sum_i x_i x_i^T)^{-1}(N^{-1} \sum_i x_i u_i)\\]
 Splitting the right side and analysing the asymptotic behaviour. The first one:
 \\[E[N^{-1} \sum_i x_i x_i^T] \overset{iid}{=} E[x_i x_i^T] \equiv A^{-1} \\]
