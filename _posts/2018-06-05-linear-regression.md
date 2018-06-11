@@ -29,6 +29,7 @@ Full rank is needed for identification. Ensures that the estimate of $$\beta$$ a
 Means that all coeffcients follow the same variance in the population.
 \\[E[xu(xu)^T] = \sigma^2 E[xx^T] = \sigma^2 A\\]
 See asymptotic properties section.
+
 ## Parameter Identification
 Starting point is the squared error:
 \\[u^T u = (y - \hat{y})^T (y - \hat{y}) = (y - x^T \beta)^T (y - x^T \beta)=y^T y - 2y^T x^T \beta + \beta^T xx^T \beta \\]
@@ -43,7 +44,7 @@ Replacing the moments with the corresponding sample averages:
 \\[\hat{\beta} = \beta + (N^{-1} \sum_i x_i x_i^T)^{-1}(N^{-1} \sum_i x_i u_i)\\]
 Rewritting and normalizing to use CLT:
 \\[(\sqrt{N}(\hat{\beta}-\beta) = \sqrt{N}(N^{-1} \sum_i x_i x_i^T)^{-1}(N^{-1} \sum_i x_i u_i)\\]
-Splitting into two factors and analysing the asymptotic behaviour. The first one:
+Splitting the right side and analysing the asymptotic behaviour. The first one:
 \\[E[N^{-1} \sum_i x_i x_i^T] \overset{iid}{=} E[x_i x_i^T] \equiv A^{-1} \\]
 \\[\lim \limits_{n \rightarrow \infty}  VAR[N^{-1} \sum_i x_i x_i^T] \overset{iid}{=} N^{-1} VAR[x_i x_i^T] = 0\\]
 The second one:
@@ -57,4 +58,6 @@ Thus, we can determine the asymptotic distribution as follows:
 \\[\hat{\beta} \overset{a}{\thicksim} \mathcal{N}(\beta,\frac{A^{-1}BA^{-1}}{N}) \\]
 Therefore, the estimator is consistent.
 ## Code
--
+```python
+s = "Python syntax highlighting"
+print s
