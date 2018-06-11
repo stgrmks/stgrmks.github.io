@@ -39,11 +39,16 @@ And solving for $$\beta$$:
 
 ## Asymptotic Properties
 \\[\hat{\beta} = (xx^T)^{-1}xy = (xx^T)^{-1}xx^T \beta + (xx^T)^{-1}xu = \beta + (xx^T)^{-1}xu\\]
-with the following behavior:
-\\[E[xx^T] = E[N^{-1} \sum_i x_i x_i^T] \equiv A^{-1} \\]
-\\[\lim \limits_{n \rightarrow \infty}  Var[N^{-1} \sum_i x_i x_i^T] \overset{iid}{=} N^{-1} Var[x_i x_i^T] = 0\\]
-\\[E[xu] = 0 \\]
-\\[\lim \limits_{n \rightarrow \infty}  Var[N^{-1} \sum_i x_i u_i] \overset{iid}{=}N^{-1}NVar[xu] = E[xu(xu)^T] - E[xu] E[xu]^T = E[xu u^T x^T] \equiv B \\]
+Replacing the moments with the corresponding sample averages:
+\\[\hat{\beta} = \beta + (N^{-1} \sum_i x_i x_i^T)^{-1}(N^{-1} \sum_i x_i u_i)\\]
+Rewritting and normalizing to use CLT:
+\\[(\sqrt{N}(\hat{\beta}-\beta) = \sqrt{N}(N^{-1} \sum_i x_i x_i^T)^{-1}(N^{-1} \sum_i x_i u_i)\\]
+Splitting into two factors and analysing the asymptotic behaviour. The first one:
+\\[E[N^{-1} \sum_i x_i x_i^T] \overset{iid}{=} E[x_i x_i^T] \equiv A^{-1} \\]
+\\[\lim \limits_{n \rightarrow \infty}  VAR[N^{-1} \sum_i x_i x_i^T] \overset{iid}{=} N^{-1} VAR[x_i x_i^T] = 0\\]
+The second one:
+\\[E[N^{-1/2} \sum_i x_i u_i] \overset{iid}{=} N^{1/2} E[x_i u_i] = 0 \\]
+\\[\lim \limits_{n \rightarrow \infty}  VAR[N^{-1/2} \sum_i x_i u_i] \overset{iid}{=}N^{-1/4}NVAR[x_i u_i] = N^{3/4}E[x_i u_i (x_i u_i)^T] - E[x_i u_i] E[x_i u_i]^T = E[x_i u_i u_i^T x_i^T] \equiv B \\]
 Hence:
 \\[N^{-1} \sum_i x_i x_i^T  \overset{p}{\to} A^{-1}\\]
 \\[N^{-1/2} \sum_i x_i u_i^T  \overset{d}{\to} \mathcal{N}(0,B)\\]
