@@ -59,6 +59,34 @@ Thus, we can determine the asymptotic distribution as follows:
 Therefore, the estimator is consistent.
 ## Code
 ~~~python
-s = "TO BE DONE"
-print s
+import numpy as np
+
+class OLS(object):
+
+    def __init__(self, intercept=False):
+        self.coef = None
+        self.intercept = intercept
+
+    def fit(self, X, y):
+        """
+
+        :param X: np.array: shape(K_FEATURES, N_SAMPLES)
+        :param y: np.array: shape(N_SAMPLES)
+        :return:
+        """
+        if self.intercept: X = np.vstack((np.ones(X.shape[1]), X))
+        nominator = np.matmul(X, y)
+        denominator = np.linalg.inv((np.matmul(X, X.T)))
+        self.coef = np.matmul(nominator, denominator)
+        return self
+
+    def predict(self, X):
+        if self.intercept: X = np.vstack((np.ones(X.shape[1]), X))
+        return np.matmul(X.T, self.coef)
+
+if __name__ == '__main__':
+    X, y = np.random.random((10,100)), np.random.random(100)
+    estimator = OLS(intercept=True)
+    estimator.fit(X=X, y=y)
+    yHat = estimator.predict(X=X)
 ~~~
