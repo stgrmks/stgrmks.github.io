@@ -52,3 +52,6 @@ whenever $$A$$ is a shift invariant set.
 ## Final Note
 * $$IID \implies \text{Strict Staionarity} \implies \text{Weak Stationarity (if exists)}$$
 * $$IID \implies \text{Mixing}$$
+
+## References
+-
