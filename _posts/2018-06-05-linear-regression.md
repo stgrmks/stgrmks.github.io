@@ -90,3 +90,5 @@ if __name__ == '__main__':
     estimator.fit(X=X, y=y)
     yHat = estimator.predict(X=X)
 ~~~
+## References
+* Wooldridge, Jeffrey M. Econometric analysis of cross section and panel data. MIT press, 2010.
