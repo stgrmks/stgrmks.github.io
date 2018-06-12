@@ -21,7 +21,7 @@ with:\\
 First note that $$E[u|x]=E[u]$$ if and only if $$u \perp x$$:
 \\[E[u|x] = \int u \frac{f(u,x)}{f(x)}du = \int u \frac{f(u)f(x)}{f(x)}du = \int u f(u) du = E[u] = 0\\]
 Further note that $$E[u|x] = 0 \implies E[xu]=0$$:
-\\[COV(u,x)=E[(x-E[x]) (u-E[u])]=E[xu] - E[x]E[u]=E[xu]\\]
+\\[COV[u,x]=E[(x-E[x]) (u-E[u])]=E[xu] - E[x]E[u]=E[xu]\\]
 Therefore, u has a zero mean and is uncorrelated with any regressors.
 2. rk(E[$$x^T x$$])=K \\
 Full rank is needed for identification. Ensures that the estimate of $$\beta$$ are unique.
