@@ -4,7 +4,7 @@ title: Linear Regression
 image: /img/hello_world.jpeg
 categories:
   - Econometrics
-tag: [ols, linear_regression]
+tag: [OLS, Linear Regression]
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ## Introduction

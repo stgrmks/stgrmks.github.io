@@ -4,7 +4,7 @@ title: Sequences of Random Variables
 image: /img/hello_world.jpeg
 categories:
   - Probability & Statistics
-tag: [asymptotic theory, statistics]
+tag: [Asymptotic Theory, Statistics]
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
