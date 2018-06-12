@@ -49,6 +49,7 @@ $$\{X_n\}$$ is a sequence of **square integrable** RV defined on the sample spac
 $$\lim \limits_{n \rightarrow \infty}E[(X_n-X)^2]=0$$
 $$X_n(\omega) \overset{m.s.}{\rightarrow} X(\omega)$$
 </p>
+This means basically a convergence in the first and second moments. Thus, $$COV[X_n,X]=1$$.
 ## Convergence in Probability
 Let´s call $$\{X_n\}$$ to be convergent in probability to some random variable $$X$$; both defined on a sample space $$\Omega$$ if and only if:
 <p style="text-align: center;">
@@ -62,6 +63,8 @@ or
 <p style="text-align: center;">
 $$\underset{n \rightarrow \infty}{\text{plim}}(X_n) =X$$
 </p>
+Hence, the realizations of $$X_n$$ get closer to the realizations of $$X$$ as $$n \rightarrow \infty$$. Usually **WLLn** or **Chebyshev´s Inequality** is applied.
+
 ## Convergence in distribution
 A sequence of RV $$\{X_n\}$$ is said to be convergent in distribution to $$X$$ if and only if there exists a CDF $$F_{X}(x)$$ such that the sequence $$\{F_{X_n}(x)\}$$ converges to $$F_{X}(x)$$:
 <p style="text-align: center;">
@@ -69,4 +72,7 @@ $$\lim \limits_{n \rightarrow \infty} F_{X_n}(x) = F(x)$$
 $$X_n \overset{d}{\rightarrow}X$$
 </p>
 $$\forall x \in \mathbb{R}$$ at which F is continuous.\\
-Further note, that the RV do **not** need to be **defined** on the same sample space $$\Omega$$, unlike all previously introduced convergence modes.
+Thus, the realizations of $$X_n$$ and $$X$$ may differ, but the distributions are similar. Best example is CLT. Further note, that the RV do **not** need to be **defined** on the same sample space $$\Omega$$, unlike all previously introduced convergence modes.
+
+## References
+-
