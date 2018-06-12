@@ -7,6 +7,7 @@ categories:
 tag: [asymptotic theory, statistics]
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 Let $$\Omega$$ be the sample space, {$$X_n$$} the sequence of random variables, {$$x_n$$} the sequence of real numbers, which is a realization of the random variable $$X_n$$ for all n.
 
 ## Independent Sequences
