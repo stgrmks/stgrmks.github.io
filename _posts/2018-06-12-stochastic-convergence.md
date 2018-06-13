@@ -3,8 +3,8 @@ layout: post
 title: Stochastic Convergence
 image: /img/hello_world.jpeg
 categories:
-  - Probability & Statistics
-tag: [Asymptotic Theory, Statistics]
+  - Statistics
+tag: [Asymptotic Theory]
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ## Pointwise / Sure Convergence
@@ -40,7 +40,6 @@ A sequence $$\{X_n\}$$ converges almost surely to some random variable $$X$$ if 
 <p style="text-align: center;">
 $$P(\omega \in \Omega: \lim \limits_{n \rightarrow \infty} |X_n(\omega)-X(\omega))=1$$
 $$X_n(\omega) \overset{a.s.}{\rightarrow} X(\omega)$$
-
 </p>
 A.s. convergence requires the sequence to converge for all sample points $$\omega \in \Omega$$ except for some set $$F^c$$ of sample points. Note, $$F^c$$ must belong to a zero-probability event! See post about probability fundamentals for more details.
 ## Mean-Square Convergence
