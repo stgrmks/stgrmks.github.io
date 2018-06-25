@@ -24,7 +24,7 @@ description: Random Stuff. Personal Library.
 # List of links in the navigation bar
 navbar-links:
   About: "about"
-  CV: "resume"
+  CV: "https://drive.google.com/file/d/1PbVzLjbE3d9L84LX20T-u3TyCi24IIJq/view?usp=sharing"
   GitHub: "https://github.com/stgrmks"
   Projects: "projects"
   Library: "library"
