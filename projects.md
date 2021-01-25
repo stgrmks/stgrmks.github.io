@@ -24,13 +24,6 @@ Although an attractive idea, it is less widely used than bagging and boosting. U
 </details>
 ---
 <br>
-## DreamPhant <a href="https://github.com/stgrmks/DreamPhant" class="btn">![View on GitHub](/img/GitHub-Mark-32px.png "View on GitHub")</a>
----
-<details>
-<summary>TBD</summary>
-</details>
----
-<br>
 ## Master Thesis <a href="https://github.com/stgrmks/Master-thesis" class="btn">![View on GitHub](/img/GitHub-Mark-32px.png "View on GitHub")</a>
 ---
 #### Title: Wearable Sensor based Human Activity Recognition with Recurrent Neural Networks
