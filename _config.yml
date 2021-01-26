@@ -24,6 +24,7 @@ description: Personal Site. Random Stuff. Personal Library.
 # List of links in the navigation bar
 navbar-links:
   About: "about"
+  GPG: "gpg"
   CV: "https://drive.google.com/open?id=13sTYaYNADp6JokkAdAheEE7KTuH7YqP-"
   Projects: "projects"
   Library: "library"
