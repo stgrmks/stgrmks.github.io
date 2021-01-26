@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Projects
-subtitle: Project Portfolio
+title: Project Portfolio
 permalink: /projects/
 ---
 <style>
