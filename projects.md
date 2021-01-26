@@ -8,7 +8,14 @@ permalink: /projects/
 body {
 text-align: justify}
 </style>
-
+---
+## Rodelbahn-Tracker <a href="https://github.com/stgrmks/Rodelbahn-Tracker" class="btn">![View on GitHub](/img/GitHub-Mark-32px.png "View on GitHub")</a>
+---
+<details>
+<summary>TBD</summary>
+</details>
+---
+<br>
 ## Stacking Classifier <a href="https://github.com/stgrmks/StackingClassifier" class="btn">![View on GitHub](/img/GitHub-Mark-32px.png "View on GitHub")</a>
 ---
 <details>
@@ -21,13 +28,6 @@ Although an attractive idea, it is less widely used than bagging and boosting. U
 <li>Either take average of all predictions or simply feed all predictions from 3) as input for another layer of base learners.</li>
 <li>Repeat procedure for arbitrary levels.</li>
 </ol>
-</details>
----
-<br>
-## Rodelbahn-Tracker <a href="https://github.com/stgrmks/Rodelbahn-Tracker" class="btn">![View on GitHub](/img/GitHub-Mark-32px.png "View on GitHub")</a>
----
-<details>
-<summary>TBD</summary>
 </details>
 ---
 <br>
