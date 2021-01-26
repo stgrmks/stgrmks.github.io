@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Project Portfolio
+title: Projects
 permalink: /projects/
 ---
 <style>
 body {
 text-align: justify}
 </style>
----
 ## Rodelbahn-Tracker <a href="https://github.com/stgrmks/Rodelbahn-Tracker" class="btn">![View on GitHub](/img/GitHub-Mark-32px.png "View on GitHub")</a>
 ---
 <details>
